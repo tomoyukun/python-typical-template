@@ -4,7 +4,7 @@ A simple template for starting Python projects.
 
 Give Claude instructions like the following to make it your own Python project:
 
-> Change the project name to "myapp". Set the package name to "myapp", description to "My awesome application", and update the author name.
+> Change the project name to "myapp". Set the package name to "myapp", README title to "My App", description to "My awesome application", and author name to "Your Name".
 
 Files that will be changed:
 
@@ -16,7 +16,7 @@ Files that will be changed:
 
 **Supported:** uv, direnv, pytest, mypy, ruff, VSCode
 
-**TODOs:** CI/CD (GitHub Actions)
+**TODOs:** CI/CD (GitHub Actions), Docker
 
 **Directory Structure**
 
