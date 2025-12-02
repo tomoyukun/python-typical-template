@@ -1,0 +1,4 @@
+# Copy this file to .envrc and customize as needed
+# Run `direnv allow` to enable
+
+export PROJECT_NAME=dummy
