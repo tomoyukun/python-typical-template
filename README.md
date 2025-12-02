@@ -8,11 +8,11 @@ Give Claude instructions like the following to make it your own Python project:
 
 Files that will be changed:
 
-- pyproject.toml: name, description, authors, known-first-party
-- src/dummy/ → src/myapp/
-- README.md: title and description
-- tools/main.py, tests/test_math.py: import statements
-- .envrc.example: PROJECT_NAME
+- `pyproject.toml`: `name`, `description`, `authors`, `known-first-party`
+- `src/dummy/` → `src/myapp/`
+- `README.md`: title and description
+- `tools/main.py`, `tests/test_math.py`: import statements
+- `.envrc.example`: `PROJECT_NAME`
 
 **Supported:** uv, direnv, pytest, mypy, ruff, VSCode
 
@@ -61,6 +61,12 @@ uv sync --extra dev  # for developers
 ```
 
 ## Development
+
+### VSCode
+
+`.vscode/settings.json` enables format-on-save with [ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff). Install the ruff extension for auto-formatting and import organization.
+
+See: [VSCode Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings)
 
 ### Testing and Type Checking
 
